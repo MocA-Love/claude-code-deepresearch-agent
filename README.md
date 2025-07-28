@@ -86,29 +86,6 @@ deepresearch-websearch Next.js vs Remix フレームワーク比較 2025年
    - 情報源URLと日付を明記
    - 検索メタデータを含む
 
-## 出力形式
-
-エージェントは以下の形式で結果を返します：
-
-```markdown
-## 検索結果サマリー
-
-### 要約
-[3-5文で核心的な回答]
-
-### 詳細情報
-1. 基本概念
-2. 実装方法
-3. 注意事項
-
-### 参考資料
-- [タイトル](URL) - 情報の要約
-
-### 検索メタデータ
-- 検索実行日時
-- 使用した検索クエリ
-- 情報の信頼度
-```
 
 ## カスタマイズ
 
@@ -147,6 +124,12 @@ ls -la .claude/agents/
 ### 検索が遅い場合
 - 検索クエリの数を減らす
 - 特定のドメインに限定した検索を試す
+
+### サンプル
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f233dd04-15b6-4a86-9925-80e8e3aa9ef9" width="45%" />
+  <img src="https://github.com/user-attachments/assets/40a65e3e-addc-47dc-b557-2a44f6d558d2" width="45%" />
+</p>
 
 ## 貢献
 
